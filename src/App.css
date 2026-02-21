@@ -1,0 +1,6 @@
+#studentGradesSection{
+    display: flex;
+    justify-content: center;
+    background-color: #CBCBCB;
+    padding: 40px 0 40px 0;
+}

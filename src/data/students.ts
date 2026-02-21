@@ -1,4 +1,10 @@
-export const students = [
+export interface StudentProp{
+  id: number,
+  name: string,
+  mark: number
+};
+
+export const students: StudentProp[] = [
   { id: 1, name: "Liam Johnson", mark: 92 },  
   { id: 2, name: "Emma Williams", mark: 85 }, 
   { id: 3, name: "Noah Brown", mark: 78 },    
