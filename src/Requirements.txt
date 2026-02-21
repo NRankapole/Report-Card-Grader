@@ -1,0 +1,16 @@
+1. Grade Report Card
+Give them an array of students with names and scores. 
+They render a list where each student's row changes color based on their grade (e.g. green for A, yellow for B, red for fail). 
+They'd need to write a helper function that maps a score to a grade label and a className 
+— logic lives outside the UI, but the result shows up visually in the list.
+
+
+Mandatory Requirements:
+-Array of students w/ names and grades
+-Render list of students and marks + different colour for every grade bracket [A=Green, B=yellow, etc]
+-Map students score to a grade
+
+Non-essential requirements:
+-Add best subject property to array
+-Filter based on subjects
+
