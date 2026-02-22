@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+#infoBoxTable >table{
+    width: 250px;
+}
