@@ -1,18 +1,19 @@
 import "../data/students.ts";
 import { students } from "../data/students.ts";
 import "../styles/StudentList.css"
+import CalculateGrade from "../utils/gradeCalculator.ts";
 
 function StudentList() {
     return (
         <div className="overflow-x-auto">
             <h2>Student Marks</h2>
             <table className="table">
-                {/*Column heading */}
                 <thead>
                     <tr>
                         <th>ID</th>
                         <th>Name</th>
                         <th>Mark</th>
+                        <th>Grade</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -21,6 +22,7 @@ function StudentList() {
                             <td>{student.id}</td>
                             <td>{student.name}</td>
                             <td>{student.mark}%</td>
+                            <td>{CalculateGrade(student.mark)}</td>
                         </tr>
                     ))}
                 </tbody>

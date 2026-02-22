@@ -1,6 +1,5 @@
 import './App.css'
 import StudentList from './components/StudenList'
-import FilterControls from './components/FilterControls'
 
 function App() {
   return (
