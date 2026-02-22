@@ -1,7 +1,7 @@
 import "../data/students.ts";
 import { students } from "../data/students.ts";
 import "../styles/StudentList.css"
-import CalculateGrade from "../utils/gradeCalculator.ts";
+import {CalculateGrade, AssignGradeColourClass} from "../utils/gradeCalculator.ts";
 
 function StudentList() {
     return (
@@ -22,7 +22,7 @@ function StudentList() {
                             <td>{student.id}</td>
                             <td>{student.name}</td>
                             <td>{student.mark}%</td>
-                            <td>{CalculateGrade(student.mark)}</td>
+                            <td className={AssignGradeColourClass(student.mark)}>{CalculateGrade(student.mark)}</td>
                         </tr>
                     ))}
                 </tbody>

@@ -5,14 +5,35 @@
 table {
     background-color: white;
     border-collapse: collapse;
+    width: 400px;
 }
 table, td, th {
   border: 0.5px solid;
-  border-radius: 6px;
   color: black;
    text-align: center;
 }
 
 h2 {
     text-align: center;
+}
+
+.excellent{
+    background-color: rgba(0, 255, 0, 0.688);
+    padding: 0;
+}
+
+.good{
+    background-color: rgba(59, 206, 91, 0.616);
+}
+
+.moderate{
+    background-color: rgba(229, 255, 0, 0.523);
+}
+
+.belowAverage{
+    background-color: rgba(255, 170, 0, 0.574);
+}
+
+.fail{
+    background-color: rgba(255, 0, 0, 0.837);
 }
