@@ -12,7 +12,6 @@ function App() {
           <h3>Information box</h3>
           <InfoBox/>
         </div>
-        
       </div>
 
     </>

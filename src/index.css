@@ -1,11 +1,14 @@
 :root{
-    background-color: #4A4A4A;
+    background-color: #2222229f;
     color: black;
     padding:30px 60px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 h1{
     font-size: 30px;
+    font-family: "Ubuntu";
     text-align: center;
     color: white;
     padding-bottom: 20px;
