@@ -1,4 +1,18 @@
-# React + TypeScript + Vite
+# Report Card Grader - React + TypeScript + Vite
+
+This project is a Report Card Grader web app built with React, TypeScript, Vite, and DaisyUI. It allows you to display a list of students with their marks (colour-coded by grade) and filter the list using a dropdown menu.
+
+# Features
+- Render a list of students with dynamic row colors based on grade.
+- Dropdown filter to show students by grade.
+- Responsive design with DaisyUI components.
+- Clear separation of logic (grade calculation) and UI rendering.
+
+# Screenshots
+![Desktop View](./src/assets/screenshots/Report_Grader_Desktop_View.png)
+
+![Mobile View](./src/assets/screenshots/Report_Grader_Mobile_View.png)
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
