@@ -24,4 +24,3 @@ export function AssignGradeColourClass(mark:number): string{
       return "fail"
   }
 }
-export default CalculateGrade;
