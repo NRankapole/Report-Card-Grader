@@ -27,3 +27,6 @@ export const students: StudentProp[] = [
   { id: 19, name: "Matthew Martin", mark: 52 , grade: ""}, 
   { id: 20, name: "Evelyn Lee", mark: 88 , grade: ""}
 ];
+
+export const Grades = ["ALL","A","B","C","D","F"] as const;
+export type Grade = typeof Grades[number];

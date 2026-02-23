@@ -1,4 +1,5 @@
 import './App.css'
+import FilterSelector from './components/FilterSelector'
 import InfoBox from './components/InfoBox'
 import StudentList from './components/StudenList'
 
@@ -9,8 +10,8 @@ function App() {
       <div id='studentGradesSection'>
         <StudentList/>
         <div id='informationBoxSection'>
-          <h3>Information box</h3>
           <InfoBox/>
+          <FilterSelector/>
         </div>
       </div>
 
