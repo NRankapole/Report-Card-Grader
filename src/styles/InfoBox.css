@@ -4,3 +4,9 @@
 #infoBoxTable >table{
     width: 250px;
 }
+
+#infoBoxSection{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

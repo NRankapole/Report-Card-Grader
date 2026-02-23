@@ -22,5 +22,6 @@ h3{
 #informationBoxSection{
     display: flex;
     flex-direction: column;
-    padding-top: 30px;
+    gap: 60px;
+    padding-top: 150px;
 }

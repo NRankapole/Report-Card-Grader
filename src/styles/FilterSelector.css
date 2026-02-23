@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+select{
+    background-color: white;
+    width: 200px;
+}
+
+#filterSelector{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+}
