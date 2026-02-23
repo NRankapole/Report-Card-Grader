@@ -1,9 +1,8 @@
-import "../data/students.ts";
-import { students } from "../data/students.ts";
+import type { StudentProp } from "../data/students";
 import "../styles/StudentList.css"
 import {CalculateGrade, AssignGradeColourClass} from "../utils/gradeCalculator.ts";
 
-function StudentList() {
+function StudentList({ students }: { students: StudentProp[] }) {
     return (
         <div className="overflow-x-auto">
             <h2>Student Marks</h2>
