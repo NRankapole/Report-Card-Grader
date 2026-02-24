@@ -9,10 +9,10 @@ This project is a Report Card Grader web app built with React, TypeScript, Vite,
 - Clear separation of logic (grade calculation) and UI rendering.
 
 # Screenshots
-- Desktop View
+- Desktop view
 ![Desktop View](./src/assets/screenshots/Report_Grader_Desktop_View.png)
 
-- Mobile View
+- Mobile view
 ![Mobile View](./src/assets/screenshots/Report_Grader_Mobile_View.png)
 
 
